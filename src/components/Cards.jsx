@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from './Card';
+const Card = React.lazy(() => import('../components/Card.jsx'));
 import { IoSettingsOutline } from 'react-icons/io5';
 import { MdFamilyRestroom } from 'react-icons/md';
 import { GiOfficeChair } from 'react-icons/gi';

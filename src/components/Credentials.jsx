@@ -1,6 +1,5 @@
 import React from 'react';
-import { FaUser } from 'react-icons/fa';
-import { HiOutlineMenuAlt1 } from 'react-icons/hi';
+import { FaUser } from 'react-icons/fa';;
 
 const Credentials = () => {
   return (

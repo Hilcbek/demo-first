@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Links from './Links';
-import Credentials from './Credentials';
+const Credentials = React.lazy(() => import('../components/Credentials.jsx'));
 import { HiOutlineMenuAlt1 } from 'react-icons/hi';
 import { MdClose } from 'react-icons/md';
 
