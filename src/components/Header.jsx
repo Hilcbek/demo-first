@@ -11,7 +11,7 @@ const Header = () => {
           <h1>Are you ready to grow up your business? Contact Us</h1>
           <FaArrowRight className="group-hover:translate-x-1 transition duration-150 ease-linear cursor-pointer" />
         </div>
-        <div className="flex sm:flex-row flex-col items-center justify-start gap-2 sm:gap-6">
+        <div className="flex sm:flex-row flex-col items-center justify-start sm:gap-6">
           <div className="flex items-center justify-start gap-2">
             <FaClock />
             <h1>Working 8:00am - 5:00pm</h1>
