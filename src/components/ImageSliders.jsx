@@ -2,7 +2,6 @@ import parisImage from '../../public/images/sliders/first.jpg';
 import belgiumImage from '../../public/images/sliders/second.jpg';
 import newYorkImage from '../../public/images/sliders/third.jpg';
 import kenyaImage from '../../public/images/sliders/fourth.jpg';
-
 const Sliders = [parisImage, belgiumImage, newYorkImage, kenyaImage];
 import React, { useRef, useState } from 'react';
 // Import Swiper React components

@@ -10,7 +10,10 @@ const NavBar = () => {
   return (
     <nav className="px-8 py-4 flex items-center justify-between w-full">
       <ul className="flex items-center justify-center">
-        <Link to={'/'} className="bg-gradient-to-tr from-blue-800 to-rose-700 bg-clip-text text-transparent text-2xl font-extrabold">
+        <Link
+          to={'/'}
+          className="bg-gradient-to-tr from-blue-800 to-rose-700 bg-clip-text text-transparent text-2xl font-extrabold"
+        >
           Company Logo
         </Link>
       </ul>

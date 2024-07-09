@@ -36,17 +36,17 @@ body {
   height: 100%;
   object-fit: cover;
 }
-.swiper-pagination-bullet {
+.swiper-pagination-bullet{
   width: 20px;
   height: 20px;
   background-color: white;
   border: '1px' solid #fff;
 }
-.swiper-pagination-bullet-active {
+.swiper-pagination-bullet-active{
   background-color: orange;
 }
 .swiper-pagination-horizontal {
-  /* position: relative; */
+  position: relative;
   margin-bottom: 20px;
   z-index: 99;
 }

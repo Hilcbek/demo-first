@@ -56,7 +56,7 @@ const Links = ({ open }) => {
       <div
         className={`${
           open ? 'left-0' : 'left-[-110%]'
-        } absolute z-[999] top-0 w-[85%] transition-all ease-in-out duration-300 bg-white/90 after:absolute after:-right-20 after:top-0 after:content-[''] after:bg-black/20 after:w-[18%] shadow-md shadow-gray-400 after:h-full flex sm:hidden p-20 h-screen items-start justify-start gap-5 flex-col`}
+        } fixed z-[999] top-0 w-[85%] transition-all ease-in-out duration-300 bg-white/90 after:absolute after:-right-20 after:top-0 after:content-[''] after:bg-black/20 after:w-[18%] shadow-md shadow-gray-400 after:h-full flex sm:hidden p-20 h-screen items-start justify-start gap-5 flex-col`}
       >
         {LinkObj.map((link) => (
           <Link
