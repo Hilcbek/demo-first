@@ -3,15 +3,16 @@ import Links from './Links';
 const Credentials = React.lazy(() => import('../components/Credentials.jsx'));
 import { HiOutlineMenuAlt1 } from 'react-icons/hi';
 import { MdClose } from 'react-icons/md';
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
   let [open, setOpen] = useState(false);
   return (
     <nav className="px-8 py-4 flex items-center justify-between w-full">
       <ul className="flex items-center justify-center">
-        <h1 className="bg-gradient-to-tr from-blue-800 to-rose-700 bg-clip-text text-transparent text-2xl font-extrabold">
+        <Link to={'/'} className="bg-gradient-to-tr from-blue-800 to-rose-700 bg-clip-text text-transparent text-2xl font-extrabold">
           Company Logo
-        </h1>
+        </Link>
       </ul>
       <Links open={open} />
       <Credentials />

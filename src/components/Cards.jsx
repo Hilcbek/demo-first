@@ -24,7 +24,7 @@ const cards = [
 const Cards = () => {
   return (
     <div className="w-full flex my-5 px-5 items-center justify-start gap-4 flex-col">
-      <h1 className="text-4xl mb-5 font-normal tracking-widest">Programs</h1>
+      <h1 style={{ userSelect : 'none'}} className="text-4xl mb-5 font-normal tracking-widest">Programs</h1>
       <div className="flex justify-start gap-5 items-center flex-wrap">
         {cards.map((card) => {
           return <Card card={card} />;
